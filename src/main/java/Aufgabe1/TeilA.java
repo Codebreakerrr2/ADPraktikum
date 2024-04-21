@@ -1,6 +1,7 @@
 package Aufgabe1;
 
 import com.google.common.base.Preconditions;
+import edu.princeton.cs.algs4.StdRandom;
 
 
 public class TeilA {
@@ -114,9 +115,10 @@ return null;
     public static void main(String[] args) {
         int [] array={1, 61, 16, 75, 89, 133, 89, 59, 28, 3, 3, 97, 61, 85, 47, 38, 78, 7, 6, 15
 };
-        int[] teilArray= TeilA.localMax(array,3);
-        if(teilArray==null) System.out.println("fk");
-        else printArray(teilArray);
+     for(int i=0;i<50;i++){
+         System.out.print(StdRandom.uniformDouble(0,2)+" ");
+     }
+
     }
 
     public static void printArray(int[] array){
