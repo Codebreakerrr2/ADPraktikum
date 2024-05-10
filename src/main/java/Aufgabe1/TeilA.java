@@ -113,7 +113,7 @@ return null;
     }
 
     public static void main(String[] args) {
-        int [] array={1, 61, 16, 75, 89, 133, 89, 59, 28, 3, 3, 97, 61, 85, 47, 38, 78, 7, 6, 15
+        int [] array={
 };
      for(int i=0;i<50;i++){
          System.out.print(StdRandom.uniformDouble(0,2)+" ");

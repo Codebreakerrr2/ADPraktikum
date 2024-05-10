@@ -6,8 +6,9 @@ import edu.princeton.cs.algs4.StdOut;
 public class NPlusEvenFilter {
     public static void main(String[] args) {
         while(!StdIn.isEmpty()){
-            int number=StdIn.readInt();
-            StdOut.print(number+" ");
+
+            double number=StdIn.readDouble();
+            if(number%2==0 && number>0) StdOut.print(number+" ");
         }
     }
 }
