@@ -1,7 +1,6 @@
 package Aufgabe1;
 
 import com.google.common.base.Preconditions;
-import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdIn;
 
 import java.util.ArrayList;
